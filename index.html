@@ -11,23 +11,28 @@
   <body>
     <!-- Start Top Bar -->
     <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text">Certicompra</li>
-          <li><a href="#">One</a></li>
-          <li><a href="#">Two</a></li>
-        </ul>
-      </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <li><a href="#">Three</a></li>
-          <li><a href="#">Four</a></li>
-            
-          <li><a href="register.html">Register</a></li>
-          <li><a href="login.html">Login</a></li>
-        </ul>
-      </div>
+        <div class="top-bar-tittle">
+            <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <button class="menu-icon dark" type="button" data-toggle></button>
+            </span>
+            <strong><h1>Certicompra</h1></strong>
+        </div>
+        <div id="responsive-menu">
+            <div class="top-bar-left">
+                <ul class="menu">
+                    <li>
+                    <input type="search" placeholder="Busca tu producto">
+                    </li>
+                    <li>
+                    <button type="button" class="button">Search</button>
+                    </li>
+                </ul>    
+            </div>
+            <div class="top-bar-right">
+            </div>
+        </div>
     </div>
+      
     <!-- End Top Bar -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
